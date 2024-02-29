@@ -16,56 +16,31 @@ This is a web application named "Laptops Hub," built with Node.js and Express.js
 
 ## Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone <https://github.com/awexeoz/Web>
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd final-web-
-    ```
-
-3. Install dependencies:
+1. Download a ZIP file
+2. Install dependencies:
 
     ```bash
     npm install
     ```
 
-4. Set up environment variables:
+3. Set up environment variables:
 
    Create a `.env` file in the root directory and add the following variables:
 
     ```env
     PORT=3000
-    MONGODB_URL=mongodb://localhost:27017/test
-    EMAIL_USER=awexeoz7z@gmail.com
-    EMAIL_PASS=rjuo knag jgru sasi
+    MONGODB_URL="YOUR URL TO MONGODB"
+    EMAIL_USER="YOUR EMAIL"
+    EMAIL_PASS="YOUR PASSWORD TO EAMIL"
     ```
 
-   Replace `MONGODB_URI`, `EMAIL_USER`, and `EMAIL_PASS` with your MongoDB connection URI and email credentials.
+4. Start the project:
 
-5. Start the server:
+   `npm run start`
 
-   node index.js
-
-6. Access the application:
+5. Access the application:
 
    Open your web browser and visit `http://localhost:3000`.
-
-7. Access for admin:
-
-   username: `Yernur` 
-   
-   password: `Admin`
-
-8. Access for user:
-
-   username: `Student`
-
-   password: `Student`
 
 ## Usage
 
