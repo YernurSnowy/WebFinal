@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: url('https://getwallpapers.com/wallpaper/full/4/e/d/23625.jpg'); 
+}
+#exchangeRateChart {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+.list-container {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+.rate-item {
+    background-color: #edf2f7;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0.5rem 1rem;
+}
+.rate-item:last-child {
+    border-bottom: none;
+}
+.rate-item > span {
+    display: inline-block;
+    min-width: 100px;
+}
+h1{
+  color:#fff;
+  font-size:40px;
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Devices</title>
+    <link rel="stylesheet" href="/device_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Laptops Information</h1>
+        <% devices.forEach(device => { %>
+            <div class="device">
+                <h2><%= device.DeviceName %></h2>
+                <p><span class="strong">Brand:</span> <%= device.Brand %></p>
+                <p><span class="strong">Display:</span> <%= device.Display %></p>
+                <p><span class="strong">Processor:</span> <%= device.Processor %></p>
+                <p><span class="strong">Memory:</span> <%= device.Memory %></p>
+                <p><span class="strong">Storage:</span> <%= device.Storage %></p>
+                <p><span class="strong">Graphics:</span> <%= device.Graphics %></p>
+                <p><span class="strong">BatteryLife:</span> <%= device.BatteryLife %></p>
+                <p><span class="strong">Weight:</span> <%= device.Weight %></p>
+            </div>
+        <% }) %>
+    </div>
+</body>
+</html>
